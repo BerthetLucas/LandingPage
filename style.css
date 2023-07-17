@@ -122,13 +122,17 @@ header {
 
 .page2{
     height : 25vh; 
+    background-color: #0C1117;
+    padding-top: 5em;
+}
+
+.page2-content-container {
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    gap : 2em;
-    background-color: #0C1117;
+
 }
 
 .page2-title {
@@ -140,6 +144,8 @@ header {
 .page2-description{
     margin-bottom: 2em;
     color : #4A545F;
+    width : 75%; 
+    
 }
 
 /* PAGE 3 */
@@ -147,4 +153,46 @@ header {
 .page3 {
     height : 100vh; 
     background-color: #E4EFFA;
+    padding-bottom: 2em;
+}
+
+.page3-container {
+    height : 90%;
+    padding-top: 2.5em;
+   
+}
+.page3-card-container{
+    height : 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1.5em;
+}
+.page3-picture-container{
+    height : 10em; 
+    width : 10em; 
+    border-radius: 50%;
+    background-color: #53D7F4;
+}
+
+.page3-picture-description{
+    width : 50%; 
+    text-align: center;
+}
+
+/* PAGE 4 */
+
+.page4 {
+    height : 25vh; 
+    background-color:  #E4EFFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page4-description {
+    background-color: white;
+    padding: 1em;
 }
