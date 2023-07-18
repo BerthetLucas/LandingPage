@@ -196,3 +196,43 @@ header {
     background-color: white;
     padding: 1em;
 }
+
+/* PAGE 5 */
+
+.page5 {
+    height : 25vh; 
+}
+.page5-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content : center; 
+ 
+}
+
+.page5-title {
+    margin-top : 2em; 
+}
+
+.page5-video {
+  width : 100%; 
+  margin-top : 2em;
+  margin-bottom: 2em;
+
+   
+}
+
+/* PAGE 6 */
+
+.page6-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap : 1em; 
+}
+
+.page6-description {
+    text-align: center;
+}
