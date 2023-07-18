@@ -93,7 +93,7 @@ header {
 .page1-button {
     padding-top: 1em;
     padding-bottom: 1em; 
-    width : 40%; 
+    width : 50%; 
     border-radius: 25px;
     border : none; 
     font-size : 1.01em;
@@ -186,10 +186,18 @@ header {
 .page4 {
     height : 25vh; 
     background-color:  #E4EFFA;
+    width : 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.page4-container {
+    width : 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .page4-description {
@@ -199,9 +207,8 @@ header {
 
 /* PAGE 5 */
 
-.page5 {
-    height : 25vh; 
-}
+
+
 .page5-container {
     display: flex;
     flex-direction: column;
@@ -235,4 +242,161 @@ header {
 
 .page6-description {
     text-align: center;
+    width : 85%; 
 }
+
+/* PAGE 7  */
+
+
+.page7-content-container {
+    margin-top : 3em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page7-picture{
+    margin-top : 3em; 
+    height : 15em; 
+    width : 65%; 
+    background-color: #E4EFFA; 
+
+}
+
+/* PAGE 8 */
+
+.page8-content-container {
+    margin-top : 3em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page8-picture{
+    margin-top : 2em; 
+    height : 20em; 
+    width : 95%; 
+    background-color: #E4EFFA; 
+
+}
+
+
+/* PAGE 9 */
+
+.page9{
+    height : 100vh; 
+    background-image: url(./assets/img/fond3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page9-title{
+    color : white; 
+    font-size : 3em;
+    text-align: center;
+    margin-bottom: 1em; 
+}
+
+.page9-description{
+    color : white; 
+    font-size: 1.5em;
+    text-align: center;
+    width : 95%
+}
+
+/* PAGE 10 */
+
+.page10 {
+
+    margin-top : 3em; 
+    margin-bottom : 3em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page10-title {
+    margin-bottom: 2.5em;
+}
+
+.page10-description{
+    text-align: center;
+}
+
+/* PAGE 11  */
+
+.page11 {
+
+    margin-top : 3em; 
+    margin-bottom : 3em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page11-container {
+    padding : 1em; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap : 2em; 
+    background-color: #E4EFFA; 
+
+}
+
+.page11-title {
+    width : 60%;
+    text-align: center;
+    
+}
+
+.page11-description{
+    text-align: start;
+    background-color: white;
+    padding : 1em 2em;
+    width : 70%
+    
+}
+
+/* PAGE 12 */
+
+.icone-gps{
+    height : 6em; 
+}
+
+.page12 {
+    height : 60vh;
+    background-image: url(./assets/img/fond2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.page12-container {
+    height : 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap : 1em; 
+}
+
+.page12-description {
+    background-color: white;
+    padding : 0.5em 2em; 
+}
+
+/* PAGE 13 */
+
