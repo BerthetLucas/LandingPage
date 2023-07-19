@@ -67,11 +67,20 @@ header {
     height : 85%
 }
 
+.page1-container {
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .page1-title{
     text-align: center;
     font-size: 2.6em;
     color : white;
     margin-bottom : 0.5em; 
+    font-weight : bold; 
 
 }
 
@@ -84,10 +93,19 @@ header {
 }
 
 .page1-photo-container {
-    height : 45vh; 
+    height : 30vh; 
     width : 75%;
     background-color: white;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+}
+
+.page1-photo-lg-container{
+display: none;
+height : 45vh; 
+width : 75%;
+background-color: white;
+margin-bottom: 1em;
+
 }
 
 .page1-button {
@@ -103,7 +121,7 @@ header {
     
 }
 
-.page1-fleche-container{
+.page1-arrow-container{
     height : 5em;
     width : 5em;
     background-color: #5836E5;
@@ -111,11 +129,64 @@ header {
     display: flex;
     justify-content: center;
     align-items: center; 
+    position : absolute; 
+    top : 95%; 
 
 }
 
 .page1-fleche {
     height : 30%
+}
+
+@media screen and (min-width : 952px) {
+    .page1-photo-container {
+        display: none;
+    }
+
+    .page1-photo-lg-container {
+        display: block;
+        height : 60vh; 
+        width : 40%; 
+        margin-right : 5%; 
+      
+    }
+    
+    .page1 {
+        
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .page1-container {
+        align-items: start;
+        gap : 2em; 
+        width : 50%
+    }
+
+    .page1-title {
+        font-size : 3.5em; 
+        width : 90%
+    }
+
+    .page1-description {
+        width : 60%
+    }
+
+    .page1-button {
+        width : 30%
+    }
+
+    .page1-title, .page1-description {
+        text-align: start;
+    }
+
+    .page1-title, .page1-description, .page1-button {
+        margin-left: 10%;
+    }
+    
+    
 }
 
 /* PAGE 2 */
@@ -145,6 +216,17 @@ header {
     margin-bottom: 2em;
     color : #4A545F;
     width : 75%; 
+    
+}
+
+@media screen and (min-width : 952px) {
+    .page2 {
+        height : 30vh
+    }
+
+    .page2-title {
+        margin-top : 2em
+    }
     
 }
 
@@ -179,6 +261,34 @@ header {
 .page3-picture-description{
     width : 50%; 
     text-align: center;
+}
+
+@media screen and (min-width : 952px) {
+
+.page3 {
+    height : 70vh; 
+    margin-bottom : 5em; 
+}
+
+    .page3-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap : 5em; 
+    }
+
+    .page3-picture-container{
+        height : 15em; 
+        width : 15em; 
+        margin-top : 2em; 
+
+    }
+    
+    .page3-card-container {
+        height : 100%; 
+       
+    }
 }
 
 /* PAGE 4 */
